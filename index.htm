@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 Home Page - Sullayman Samai</title>
+    <meta name="description" content="Providing insight into Sarah's education and projects.">
+    <meta name="author" content="Sullayman Samai">
+    <meta property="og:title" content="Sullayman Samai  - WDD 231">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://i.postimg.cc/2S0nzTRJ/skellefteariver-thumbnail.webp">
+    <meta property="og:image:alt" content="Skellefteå River with trees along the banks">
+    <meta property="og:url" content="https://www.sarahaglenn/github.io/wdd231/">
+    <meta property="og:description" content="Providing insight into Sarah's education and projects.">
+    <meta property="og:site_name" content="Sullayman Samai">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="Sullayman Samai" />
+    <meta name="twitter:title" content="Sullayman Samai  - WDD 231" />
+    <meta name="twitter:description" content="Providing insight into Sarah's education and projects." />
+    <meta name="twitter:image" content="https://i.postimg.cc/2S0nzTRJ/skellefteariver-thumbnail.webp" />
+    <meta name="twitter:image:alt" content="Skellefteå River with trees along the banks">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="scripts/home.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <img src="images/WhatsApp Image 2024-09-21 at 22.52.02_a88b9292.jpg" alt="Close up picture of Sarah in winter time." width="100"
+                height="150">
+            <h1>WDD 231 - Saullayman Junior Samai</h1>
+        </div>
+        <nav id="animate">
+            <button id="hamButton" aria-label="Menu Button"></button>
+            <ul class="menuLinks">
+                <li><a href="index.html" class="active" title="Home">Home</a></li>
+                <li><a href="#" title="Chamber">Chamber</a></li>
+                <li><a href="#" title="GitHub Profile">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/sullayman Junior samai" title="LinkedIn">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="courseWork">
+            <h2>Course Work</h2>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Quote, Profile</h2>
+            <figure>
+                <img src="images/Start Here week 4.png" alt="Profile Picture" width="400"
+                    height="300">
+                <figcaption>Profile Picture</figcaption>
+            </figure>
+        </section>
+        <section id="weather">
+            <h2>Current Weather</h2>
+            <p><span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption id="weather-caption"></figcaption>
+            </figure>
+        </section>
+        <section id="courses">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div id="labels">
+                <p id="all">All</p>
+                <p id="cse">CSE</p>
+                <p id="wdd">WDD</p>
+            </div>
+            <hr>
+            <div id="cards"></div>
+            <p id="credits"></p>
+        </section>
+        <dialog id="course-details"></dialog>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> | Sullayman junior | Samai</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
