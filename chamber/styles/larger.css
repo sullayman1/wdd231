@@ -1,0 +1,69 @@
+@media only screen and (min-width: 38rem) {
+    #hamButton {
+        display: none;
+    }
+    nav {
+        grid-template-rows: 1fr;
+    }
+    ul.menuLinks, ul.menuLinks.open {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.menuLinks a:hover {
+        background-color: var(--lightest-color);
+    }
+    header img {
+        width: 50%;
+    }
+    section h2 {
+        display: flex;
+        min-height: 3em;
+        align-items: center;
+    }
+    .info {
+        display: grid;
+        grid-template-columns: 2fr 1.2fr 1fr;
+        column-gap: 10px;
+    }
+    #cards, #spotlight {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 10px;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+    }
+}
+@media only screen and (min-width: 740px) {
+    #discover {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+    .sidebar {
+        margin-top: 1rem;
+        align-self: start;
+    }
+    .facts, .attractions, iframe {
+        margin: 0 auto 3.5rem auto;
+    }
+    .facts p, 
+    .attractions p {
+        padding: 1.5rem 2rem;
+    }
+    .images img {
+        max-width: 100%;
+    }
+    .images img:hover {
+        opacity: .5;
+    }
+}
+
+@media only screen and (min-width: 57rem) {
+    header img {
+        width: 40%;
+    }
+}
