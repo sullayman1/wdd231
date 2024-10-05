@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce</title>
+    <meta name="description" content="Bringing together local businesses.">
+    <meta name="author" content="Sullayman J. Samai">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://sullayman1.github.io/wdd231//chamber/images/umea1600x500.webp">
+    <meta property="og:image:alt" content="Business fronts along a street">
+    <meta property="og:url" content="https://www.sullayman1/github.io/wdd231/chamber">
+    <meta property="og:description" content="Bringing together local business owners">
+    <meta property="og:site_name" content="Chamber of Commerce">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content=" Chamber of Commerce">
+    <meta name="twitter:title" content=" Chamber of Commerce">
+    <meta name="twitter:description" content="Bringing together local business owners">
+    <meta name="twitter:image" content="images/umea1600x500.webp">
+    <meta name="twitter:image:alt" content="Business fronts along a street">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/index.js" defer></script>
+    <link rel="icon" href="anchor.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/umea-logo400x67.webp"
+            alt="Logo for  Chamber of Commerce" width="300" >
+    </header>
+    <nav id="animate">
+        <button id="hamButton" aria-label="Menu Button"></button>
+        <ul class="menuLinks">
+            <li class="active"><a href="#" title="home">Home</a></li>
+            <li><a href="directory.html" title="directory">Directory</a></li>
+            <li><a href="join.html" title="join">Join</a></li>
+            <li><a href="discover.html" title="discover">Discover</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <picture>
+            <source media="(max-width:38rem)" srcset="images/umea615x180.webp 615w" sizes="100vw">
+            <img src="images/umea1600x500.webp" alt="Street of business fronts" width="1600" height="500">
+        </picture>
+        <button>Join Chamber Commerce</button>
+    </div>
+    <main>
+        <h1>Home</h1>
+        <div class="info">
+            <section class="events">
+                <h2>Events</h2>
+                <ul id="events">
+                    <li>Registration is now open for the 2024 Local Businesses in Action Convention. Get your tickets today!</li>
+                    <li>Join us on 30 Oct. for the 2024 Chamber Foundation Golf Classic</li>
+                    <li>12 November Social Media for Businesses Clinic</li>
+                </ul>
+            </section>
+            <section class="weather">
+                <h2>Current Weather</h2>
+                <div class="weatherInfo">
+                    <div class="weatherStats">
+                    </div>
+                </div>
+            </section>
+            <section class="forecast">
+                <h2>Weather Forecast</h2>
+            </section>
+        </div>
+        <h2 class="spotlight">Business Spotlights</h2>
+        <div id="spotlight">
+        </div>
+    </main>
+    <footer>
+        <section class="contact">
+            <h4> Chamber of Commerce</h4>
+            <p>Storgatan 8</p>
+            <p>Sullayman J. Samai</p>
+            <p>info@sam.com</p>
+            <p>0002-4763-111</p>
+        </section>
+        <div id="social">
+            <a href="https://facebook.com"><img src="images/facebook-icon.png" alt="Facebook icon" width="48" height="48"></a>
+            <a href="https://twitter.com"><img src="images/twitter-icon.png" alt="Twitter icon" width="48" height="48"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin-icon.png" alt="LinkedIn icon" width="48" height="48"></a>
+        </div>
+        <div class="wdd231">
+            <p>WDD231 Class Project</p>
+            <p>Sullayman J. Samai</p>
+            <p>© <span id="currentyear"></span>  Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>
