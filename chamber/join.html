@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join  Chamber of Commerce</title>
+    <meta name="description" content="Join local businesses in the  Chamber of Commerce">
+    <meta name="author" content="Sullayman J. Samai">
+    <meta property="og:title" content="Join  Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://127.0.0.1:5500/chamber/images/join1600x500.webp">
+    <meta property="og:image:alt" content="Top down view of business meeting">
+    <meta property="og:url" content="https://www.sullayman1/github.io/wdd231/chamber/join.html">
+    <meta property="og:description" content="Join local businesses in the Umeå Chamber of Commerce">
+    <meta property="og:site_name" content="Join Chamber of Commerce">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="Chamber of Commerce">
+    <meta name="twitter:title" content="Join  Chamber of Commerce">
+    <meta name="twitter:description" content="Join local businesses in the Umeå Chamber of Commerce">
+    <meta name="twitter:image" content="http://127.0.0.1:5500/chamber/images/join1600x500.webp">
+    <meta name="twitter:image:alt" content="Top down view of business meeting">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/join-mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="anchor.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/umea-logo300x50.png"
+            alt="Logo for Chamber of Commerce" width="300">
+    </header>
+    <nav id="animate">
+        <button id="hamButton" aria-label="Menu Button"></button>
+        <ul class="menuLinks">
+            <li><a href="index.html" title="home">Home</a></li>
+            <li><a href="directory.html" title="directory">Directory</a></li>
+            <li class="active"><a href="#" title="join">Join</a></li>
+            <li><a href="discover.html" title="discover">Discover</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <picture>
+            <source media="(max-width:38rem)" srcset="images/join615x180.webp 615w" sizes="100vw">
+            <img src="images/join1600x500.webp" alt="Top down view of business meeting" width="1600" height="500">
+        </picture>
+    </div>
+    <main>
+        <h1>Join us</h1>
+        <form action="thankyou.html" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name <input type="text" name="first" required autocomplete="given-name"
+                        title="Your First Name"></label>
+                <label>Last Name <input type="text" name="last" required autocomplete="family-name"
+                        title="Your Last Name"></label>
+                <label>Title Within Your Organization <input type="text" name="orgTitle"
+                        autocomplete="organization-title" title="Your Title within Your Organization"
+                        pattern="[a-zA-Z\-\s]{7,}"></label>
+                <label>Email <input type="email" name="email" required autocomplete="email" title="Your Email"
+                        placeholder="someone@gmail.com"></label>
+                <label>Cell Phone Number <input type="tel" name="phone" required autocomplete="tel"
+                        title="Your Cell Phone Number"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label>Business/Organization Name <input type="text" name="busName" required
+                        autocomplete="organization"></label>
+                <h3 id="animation">Choose Membership Level:</h3>
+                <div id="memberOptions"></div>
+                <label class="businessDesc">Business/Organization description <textarea name="description"
+                        title="Description of your business or organization" rows="5" cols="35"></textarea></label>
+                <input type="hidden" name="timestamp" id="timestamp">
+                <dialog id="dialog">
+                    <div>
+                        <h3>Title goes here</h3>
+                        <button>X</button>
+                    </div>
+                    <p><strong>Benefits include: </strong></p>
+                    <ul></ul>
+                    <p id="price"></p>
+                </dialog>
+            </fieldset>
+            <input type="submit" value="Join the Chamber" id="submit">
+        </form>
+    </main>
+    <footer>
+        <section class="contact">
+            <h4>Chamber of Commerce</h4>
+            <p>Storgatan 8</p>
+            <p>Sullayman J. Samai</p>
+            <p>info@sam.com</p>
+            <p>0002-4763-111</p>
+        </section>
+        <div id="social">
+            <a href="https://facebook.com"><img src="images/facebook-icon.png" alt="Facebook icon" width="48"
+                    height="48"></a>
+            <a href="https://twitter.com"><img src="images/twitter-icon.png" alt="Twitter icon" width="48"
+                    height="48"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin-icon.png" alt="LinkedIn icon" width="48"
+                    height="48"></a>
+        </div>
+        <div class="wdd231">
+            <p>WDD231 Class Project</p>
+            <p>Sullayman J. Samai</p>
+            <p>© <span id="currentyear"></span> Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/join.js" type="module"></script>
+</body>
+
+</html>
