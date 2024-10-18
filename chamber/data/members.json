@@ -1,0 +1,100 @@
+{
+    "members": [
+        {
+            "businessName": "Natal",
+            "streetAddress": "Nygatan 354",
+            "city": "Chamber",
+            "country": "Sweden",
+            "phone": "+2440000000000",
+            "url": "https.wwww.cykelochfiskecenter.se",
+            "logo": "images/cykel-logo.png",
+            "membership": 1
+        },
+        {
+            "businessName": "Tofest",
+            "streetAddress": "Notvägen 2",
+            "city": "Öbacka",
+            "country": "Sweden",
+            "phone": "2440000000000",
+            "url": "https.wwww.godishuset.se",
+            "logo": "https://i.postimg.cc/G26XtH9B/godishuset-logo.png",
+            "membership": 2
+        },
+        {
+            "businessName": "Mat",
+            "streetAddress": "Tegsvägen 45",
+            "city": "Sofiehem",
+            "country": "Sweden",
+            "phone": "2440000000000",
+            "url": "https.wwww.ainascafe.se",
+            "logo": "https://i.postimg.cc/XNF8xNp8/ainas-logo.png",
+            "membership": 1
+        },
+        {
+            "businessName": "Scandic Umeå",
+            "streetAddress": "Vintergatan 16",
+            "city": "Röbäck",
+            "country": "Sweden",
+            "phone": "2440000000000",
+            "url": "https.wwww.scandichotel/umea.se",
+            "logo": "images/scandic-logo1.png",
+            "membership": 3
+        },
+        {
+            "businessName": "Hemmakväll",
+            "streetAddress": "Långgatan 3",
+            "city": "Arma",
+            "country": "Sweden",
+            "phone": "2440000000000",
+            "url": "https.wwww.hemmakvall.se",
+            "logo": "https://i.postimg.cc/GmSGd64t/hemmakvall-logo.png",
+            "membership": 3
+        },
+        {
+            "businessName": "Bilverkstan Älvsbacka",
+            "streetAddress": "Ringvägen 28",
+            "city": "Mariehem",
+            "country": "Sweden",
+            "phone": "2440000000000",
+            "url": "https.wwww.bilverstanalvsbacka.se",
+            "logo": "https://i.postimg.cc/509VgKm5/bilverkstan-logo.png",
+            "membership": 1
+        },
+        {
+            "businessName": "Pinchos",
+            "streetAddress": "Kläppvägen 54",
+            "city": "Wemove",
+            "country": "Sweden",
+            "phone": "2440000000000",
+            "url": "https.wwww.pinchos.se",
+            "logo": "https://i.postimg.cc/FHjX4XWg/pinchos-logo.png",
+            "membership": 2
+        }
+    ],
+    "membership": [
+        {
+            "level": "Gold Membership",
+            "id": "gold",
+            "price": "$500",
+            "benefits": ["All the benefits of the lower tiers plus...", "Advertising spotlight on chamber home page", "4 business mentoring meetings per year"]
+        },
+        {
+            "level": "Silver Membership",
+            "id": "silver",
+            "price": "$300",
+            "benefits": ["All the benefits of the lower tiers plus...", "Use of our \"Resources and Education for Businesses\" Center"]
+        },
+        {
+            "level": "Bronze Membership",
+            "id": "bronze",
+            "price": "$200",
+            "benefits": ["All the benefits of the non-profit membership plus...", "Business marketing workshops", "Invitations to 60+ networking events"]
+        },
+        {
+            "level": "Non-profit Membership",
+            "id": "np",
+            "price": "Free",
+            "benefits": ["Exclusive Chamber Newsletter access", "Increased visability via our public chamber membership directory"]
+        }
+    ]
+}
