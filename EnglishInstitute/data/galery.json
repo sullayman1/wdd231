@@ -1,0 +1,35 @@
+{
+    "images": [
+      {
+        "id": 1,
+        "name": "home",
+        "url": "./Images/home-wireframe.png",
+        "description": "home"
+      },
+      {
+        "id": 2,
+        "name": "about",
+        "url": "./Images/about-wireframe.png",
+        "description": "about"
+      },
+      {
+        "id": 3,
+        "name": "FAQ",
+        "url": "./Images/FAQ-wireframe.png",
+        "description": "FAQ"
+      },
+      {
+        "id": 4,
+        "name": "course1",
+        "url": "./Images/course1-wireframe.png",
+        "description": "course1"
+      },
+      {
+        "id": 5,
+        "name": "course2",
+        "url": "./Images/course2-wireframe.png",
+        "description": "course2"
+      }
+    ]
+  }
+  
