@@ -1,0 +1,46 @@
+:root {
+    --font-titles: "Exo 2", sans-serif;
+    --font-p: "Roboto", sans-serif;
+    --primary-color-bg: #154996; 
+    --secondary-color-bg: #640a92;
+    --bright-font: #fff;
+    --dark-font: #000;
+    --light-shadow: 0 0 1em .5em #777;
+}
+
+body {
+    max-width: 600px;
+    margin: auto;
+}
+
+header {
+    background-color: var(--primary-color-bg);
+    margin: 0;
+    border-radius: 4em 0;
+    box-shadow: var(--light-shadow);
+}
+
+h1 {
+    color: var(--dark-font);
+    font-family: var(--font-titles);
+    padding: 1rem;
+    text-align: center;
+}
+
+h2, h3 {
+    background-color: var(--secondary-color-bg);
+    color: var(--bright-font);
+    font-family: var(--font-titles);
+    padding: .5rem;
+    text-align: center;
+}
+
+main {
+    background-color: #ddd;
+}
+
+p {
+    text-align: center;
+    padding: 1em;
+    font-family: var(--font-p);
+}

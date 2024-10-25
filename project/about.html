@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | BA. Africa Play</title>
+    <meta name="description" content="A page containing a description of the page startup and a simple form to submit feedback.">
+    <meta name="author" content="Sullayman Junior Samai">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/menu.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>BA. Africa Play</h1>
+        <button id="menu"></button>
+        <nav>
+            <a href="index.html" >Home</a>
+            <a href="about.html" class="active">About Us</a>
+            <a href="form.html">Sign Up</a>
+            <a href="tournaments.html">Tournaments</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large.webp">
+                <source media="(min-width: 500px )" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="A picture of a football field">
+            </picture>
+            <div class="calltoaction">
+                <h2>About Us</h2>
+            </div>
+        </div>
+        <section>
+            <h2>Our Story</h2>
+            <p>In the vibrant town of Africa , there resided a fervent soccer enthusiast named Alex. Alex was deeply involved in soccer as a player, coach, and all-around aficionado of the sport. Each weekend, they would lace up their cleats, grab their trusted ball, and head to the local soccer fields to join friends and strangers alike for a game.
+
+                One sunny afternoon, while savoring coffee at the neighborhood café, Alex overheard a conversation between two parents. The parents were lamenting the challenge of finding suitable soccer fields for their children’s practice sessions. Fields were scattered across town, and information about tournaments was equally scarce. It felt as though everyone was engaged in a game of hide-and-seek with the soccer fields!
+                
+                Inspired by this conversation, Alex had a brilliant idea. What if there existed a centralized platform where soccer enthusiasts could easily discover fields, check their availability, and even register for local tournaments? A digital hub that could unite players, coaches, and organizers—a place where the passion for soccer could truly thrive.
+                
+                Motivated by a deep desire to make soccer more accessible, Alex embarked on a mission. They named their creation "BA Africa Play," a name that encapsulated the essence of their project—a place where soccer dreams took flight in the southern part of Buenos Aires.
+                
+                As the website took form, Alex engaged with local soccer clubs, coaches, and city officials. They presented BA South Play as a community-driven initiative, highlighting its potential to increase sports participation, foster new friendships, and promote healthy competition. The response was overwhelmingly positive. Soon, the entire town rallied behind BA South Play, providing field information, tournament schedules, and offering assistance with maintenance.
+                
+                On the day of BA South Play’s official launch, the sun painted the sky in hues of gold. Alex stood proudly at the edge of Africalargest soccer field, observing players dribble, parents cheer, and coaches strategize.
+                
+                Thus, the soccer landscape of the southern region of Buenos Aires underwent a remarkable transformation. Coaches found booking fields effortless, players connected with new teammates through pickup games, and tournaments flourished, strengthening the sense of community.
+                Now, knowing that they had created something enduring—a legacy of passion, collaboration, and the beautiful game that unites us all.
+        <h2>Share Your Feedback With Us!</h2>
+        <form  method="get" action="thanks.html" class="wf">
+            <fieldset>
+                <legend>User Information</legend>
+                <label>First Name <input type="text" name="fname"></label>
+                <label>Last Name <input type="text" name="lname"></label>
+                <label>Email <input type="email" name="email" required placeholder="someone@mail.com"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Feedback</legend>
+                <textarea name="feedback" id="feednack" placeholder="write your feedback here..." rows="6"></textarea>
+            </fieldset>
+            <input type="submit" value="Send Feedback">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | BA. Africa Play | Sierra Leone</p>
+        <p>Sullayman Junior samai</p>
+    </footer>
+</body>
+</html>

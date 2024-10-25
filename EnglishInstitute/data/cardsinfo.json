@@ -1,0 +1,103 @@
+{
+    "products": [
+      {
+        "title": "Ingles Basico",
+        "image": "./Images/product1.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "title": "Ingles Intermedio",
+        "image": "./Images/product2.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "title": "Mentorias",
+        "image": "./Images/product3.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Juan Pérez",
+        "image": "./Images/JuanPerez.jpg",
+        "description": "Las clases de inglés fueron excelentes. Aprendí mucho en poco tiempo gracias a los profesores y el material didáctico. ¡Muy recomendable!"
+      },
+      {
+        "name": "María González",
+        "image": "./Images/MariaGonzales.jpg",
+        "description": "Me encantó la manera en que explican los conceptos. El enfoque práctico me ayudó a mejorar mi fluidez rápidamente. Las clases son muy interactivas."
+      },
+      {
+        "name": "Carlos Rodríguez",
+        "image": "./Images/CarlosRodriguez.jpg",
+        "description": "El curso es increíblemente completo. Los profesores están muy bien capacitados y te ayudan en todo momento. Aprendí mucho más de lo que esperaba."
+      },
+      {
+        "name": "Ana López",
+        "image": "./Images/AnaLopez.jpg",
+        "description": "Nunca pensé que aprender inglés podría ser tan fácil y divertido. Las clases son dinámicas y me siento más segura al hablar. ¡Recomendadísimo!"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "image": "./Images/facebook.png"
+      },
+      {
+        "name": "Instagram",
+        "image": "./Images/instagram.png"
+      },
+      {
+        "name": "Linkedin",
+        "image": "./Images/linkedin.png"
+      }
+    ],
+    "teachers": [
+      {
+        "name": "Samuel Mercado",
+        "image": "./Images/samuel.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      },
+      {
+        "name": "Lucas Mercado",
+        "image": "./Images/lucas.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  
+      },
+      {
+        "name": "Jamil Alanoca",
+        "image": "./Images/jamil.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Lorem ipsum dolor sit amet?",
+        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris."
+      },
+      {
+        "question": "Curabitur vulputate euismod nunc?",
+        "answer": "Curabitur vulputate euismod nunc, a cursus leo pretium in. Nulla facilisi. Sed a porttitor felis."
+      },
+      {
+        "question": "Fusce vehicula dolor arcu?",
+        "answer": "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus."
+      },
+      {
+        "question": "Vivamus vel sapien laoreet?",
+        "answer": "Vivamus vel sapien laoreet, cursus nisi ac, pretium est. Nullam dapibus nisi vitae tortor dignissim, ut fermentum velit dictum."
+      },
+      {
+        "question": "Praesent ac nibh vestibulum?",
+        "answer": "Praesent ac nibh vestibulum, posuere nulla non, volutpat nunc. Nam feugiat urna non libero blandit, nec posuere nisi porta."
+      },
+      {
+        "question": "Aliquam erat volutpat integer?",
+        "answer": "Aliquam erat volutpat. Integer ut venenatis massa. In dignissim orci sit amet turpis vehicula, id vehicula magna convallis."
+      },
+      {
+        "question": "Sed faucibus odio nec tellus?",
+        "answer": "Sed faucibus odio nec tellus bibendum, id tincidunt dui viverra. Morbi non mi eu purus sodales laoreet sit amet eget sapien."
+      }
+    ]
+  }

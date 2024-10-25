@@ -1,0 +1,30 @@
+#faqs{
+    margin: 100px auto;
+}
+#open{
+    display: block;
+}
+#questions{
+    width: 500px; 
+}
+.titleDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 30px;
+    box-shadow: 2px 2px 8px grey;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out; 
+    transform: scale(1); 
+}
+.titleDiv:hover{
+    transform: scale(1.05);
+}
+.contentDiv{
+    margin: 10px ;
+    padding: 10px;
+    border-right: solid 0.5px #496A70;
+    border-left: solid 0.5px #496A70 ;
+    
+}
